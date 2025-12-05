@@ -38,7 +38,7 @@ const Busca = () => {
         <h1 className='text-4xl text-center font-bold text-white mt-4'>LISTA DE USUARIOS</h1>
         <div className='flex gap-30 justify-center mt-10'>
         {loading ? (
-            <h1>{msgs}</h1>
+            <h1 className='text-white font-bold uppercase text-2xl'>{msgs}</h1>
         ) : (
             <ul className='bg-neutral-500 text-white w-100 h-fit rounded-lg p-4 mt-10 hover:scale-105 transition-all duration-300'>
                 {pessoa.map((p) => (
