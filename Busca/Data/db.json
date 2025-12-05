@@ -1,0 +1,89 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ana Silva",
+      "username": "ana.silva",
+      "email": "ana.silva@example.com",
+      "age": 24,
+      "role": "developer"
+    },
+    {
+      "id": "2",
+      "name": "Bruno Costa",
+      "username": "bruno.costa",
+      "email": "bruno.costa@example.com",
+      "age": 30,
+      "role": "designer"
+    },
+    {
+      "id": "3",
+      "name": "Carla Pereira",
+      "username": "carla.pereira",
+      "email": "carla.pereira@example.com",
+      "age": 27,
+      "role": "product"
+    },
+    {
+      "id": "4",
+      "name": "Diego Martins",
+      "username": "diego.martins",
+      "email": "diego.martins@example.com",
+      "age": 35,
+      "role": "devops"
+    },
+    {
+      "id": "5",
+      "name": "Elisa Rocha",
+      "username": "elisa.rocha",
+      "email": "elisa.rocha@example.com",
+      "age": 22,
+      "role": "intern"
+    },
+    {
+      "id": "6",
+      "name": "Fábio Lima",
+      "username": "fabio.lima",
+      "email": "fabio.lima@example.com",
+      "age": 28,
+      "role": "backend"
+    },
+    {
+      "id": "7",
+      "name": "Gabriela Souza",
+      "username": "gabriela.souza",
+      "email": "gabriela.souza@example.com",
+      "age": 26,
+      "role": "frontend"
+    },
+    {
+      "id": "8",
+      "name": "Henrique Alves",
+      "username": "henrique.alves",
+      "email": "henrique.alves@example.com",
+      "age": 33,
+      "role": "qa"
+    },
+    {
+      "id": "9",
+      "name": "Isabela Fernandes",
+      "username": "isabela.fernandes",
+      "email": "isabela.fernandes@example.com",
+      "age": 29,
+      "role": "ux"
+    },
+    {
+      "id": "10",
+      "name": "João Carvalho",
+      "username": "joao.carvalho",
+      "email": "joao.carvalho@example.com",
+      "age": 31,
+      "role": "fullstack"
+    },
+    {
+      "id": "b2ce",
+      "name": "Mateus",
+      "role": "fullstack"
+    }
+  ]
+}
