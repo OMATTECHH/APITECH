@@ -71,19 +71,6 @@
       "email": "isabela.fernandes@example.com",
       "age": 29,
       "role": "ux"
-    },
-    {
-      "id": "10",
-      "name": "João Carvalho",
-      "username": "joao.carvalho",
-      "email": "joao.carvalho@example.com",
-      "age": 31,
-      "role": "fullstack"
-    },
-    {
-      "id": "b2ce",
-      "name": "Mateus",
-      "role": "fullstack"
     }
   ]
 }

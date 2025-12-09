@@ -13,19 +13,27 @@ export function useFetch(url) {
             try {
                 const res = await fetch(url);
                 const json = await res.json();
-
-                setTimeout(() => {
-                    setData(json)
-                    setMsgs("Usuarios")
+                setData(json)
+                
+                if(loading) {
+                    setMsgs("usuarios")
                     setLoading(false)
-                }, 2000);
+                }
             } catch (error) {
                 setMsgs("Deu Errado !" + error)
             }
         }
 
-        loadData();
-    },[url])
+        setTimeout(() => {
+            loadData();
+        }, 2000);
+
+        const interval = setInterval(() => {
+            loadData();
+        }, 1000);;
+
+        return () => clearInterval(interval)
+    },[url, loading])
 
     return{data, setData, msgs, loading}
 }

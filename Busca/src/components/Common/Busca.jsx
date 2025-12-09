@@ -35,20 +35,22 @@ const Busca = () => {
     };
     return (
         <>
-        <h1 className='text-4xl text-center font-bold text-white mt-4'>LISTA DE USUARIOS</h1>
         <div className='flex gap-30 justify-center mt-5'>
         {loading ? (
             <h1 className='text-white font-bold uppercase text-2xl'>{msgs}</h1>
         ) : (
-            <ul className='bg-neutral-500 text-white w-100 h-fit rounded-lg p-4 hover:scale-105 transition-all duration-300'>
-                {pessoa.map((p) => (
-                    <li key={p.id}><strong>{p.name} : </strong>{p.role}</li>
-                ))}
-            </ul>
+            <div>
+                <h1 className='text-white font-bold uppercase text-2xl'>{msgs}</h1>
+                    <ul className='bg-neutral-500 text-white w-96 h-fit rounded-lg p-4 hover:scale-105 transition-all duration-300'>
+                            {pessoa.map((p) => (
+                                <li key={p.id}><strong>{p.name} : </strong>{p.role}</li>
+                            ))}
+                    </ul>
+             </div>
         )}
 
 
-            <form onSubmit={handleSubmit} className='bg-neutral-500 text-white flex flex-col p-4 rounded-xl gap-5 w-50 h-fit hover:scale-105 transition-all duration-300'>
+            <form onSubmit={handleSubmit} className='bg-neutral-500 text-white flex flex-col p-4 rounded-xl gap-5 w-52 h-fit hover:scale-105 transition-all duration-300 mt-8'>
                 <label className='flex flex-col'>
                     <span>Nome:</span>
                         <input type="text" name="name" id="name" placeholder='Digite seu nome'  required value={name} onChange={(e) => setName(e.target.value)} className='bg-neutral-900/50 p-2 rounded-2xl outline-none hover:bg-neutral-900/60'/>
